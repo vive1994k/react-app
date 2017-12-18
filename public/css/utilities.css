@@ -12,3 +12,7 @@
 .u-pos-rel {
   position: relative;
 }
+
+.u-d-inlineblock {
+  display: inline-block;
+}

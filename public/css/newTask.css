@@ -1,0 +1,13 @@
+.new-task-wrapper {
+  display: inline-block;
+  padding: 20px;
+  vertical-align: middle;
+  margin: 40px;
+}
+
+.new-task-label {
+  width: 180px;
+  padding: 10px;
+  font-size: 20px;
+  display: inline-block;
+}

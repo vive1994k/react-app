@@ -1,6 +1,7 @@
 @import url('clientApp.css');
 @import url('utilities.css');
 @import url('clock.css');
+@import url('newTask.css');
 
 body {
   margin:0;

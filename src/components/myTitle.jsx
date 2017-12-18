@@ -7,7 +7,7 @@ class MyTitle extends React.Component {
 
   render () {
     return (
-      <div>
+      <div className='u-t-center'>
         <h1>Task Scheduler</h1>
       </div>
     )
