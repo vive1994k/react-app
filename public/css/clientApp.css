@@ -1,5 +1,6 @@
 .app-container {
-  overflow: visible;
+  overflow: auto;
+  text-align: center;
 }
 
 .app-background {
