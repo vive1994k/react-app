@@ -6,3 +6,7 @@
   position: fixed; 
   filter: blur(3px);
 }
+
+.app-heading {
+  color: black;
+}
