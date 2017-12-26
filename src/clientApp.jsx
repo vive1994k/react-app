@@ -4,7 +4,11 @@ var Clock = require('./components/clock')
 var MyTitle = require('./components/myTitle')
 var NewTask = require('./components/newTask')
 
-class App extends React.Component {
+var InProgressTasks = require('./containers/inProgressTasks')
+var UpcomingTasks = require('./containers/upcomingTasks')
+var CompletedTasks = require('./containers/completedTasks')
+
+class ClientApp extends React.Component {
   constructor (props) {
     super(props)
   }
@@ -16,9 +20,14 @@ class App extends React.Component {
         <MyTitle />
         <NewTask />
         <Clock />
+        <div className="wrapper">
+          <InProgressTasks />
+          <UpcomingTasks />
+          <CompletedTasks />
+        </div>
       </div>
     )
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+module.exports = ClientApp

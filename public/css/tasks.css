@@ -1,0 +1,9 @@
+.wrapper {
+	margin: 20px;
+}
+
+.tasks-wrapper {
+	padding: 20px;
+	margin: 15px;
+	display: inline-block;
+}

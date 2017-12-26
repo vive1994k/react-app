@@ -2,7 +2,7 @@ var path = require('path')
 
 module.exports = {
   context: __dirname,     // node exposes __dirname, this is not webpack function. context helps us run webpack from anywhere in our project
-  entry: path.join(__dirname, '/src/clientApp.jsx'),
+  entry: path.join(__dirname, '/src/index.jsx'),
   output: {
     path: path.join(__dirname, '/public'),
     filename: 'bundle.js'
@@ -23,7 +23,7 @@ module.exports = {
         exclude: /node_modules/,
         query: {
           cacheDirectory: true,
-          presets: ['react', 'es2015']
+          presets: ['react', 'es2015', 'es2016']
         }
       }
     ]
